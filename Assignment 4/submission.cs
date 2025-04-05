@@ -74,7 +74,7 @@ namespace ConsoleApp1
             XmlDocument xmlDocument = new XmlDocument();
             xmlDocument.Load(xmlUrl);
             //convert the xml document to json
-            string jsonText = JsonConvert.SerializeXmlNode(xmlDocument, Newtonsoft.Json.Formatting.Indented, true);
+            string jsonText = JsonConvert.SerializeXmlNode(xmlDocument, Newtonsoft.Json.Formatting.Indented, false);
 
             // The returned jsonText needs to be de-serializable by Newtonsoft.Json package. (JsonConvert.DeserializeXmlNode(jsonText))
             return jsonText;

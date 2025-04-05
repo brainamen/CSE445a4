@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+<Hotels xmlns="http://www.example.com/Hotels"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:SchemaLocation="http://www.example.com/Hotels Hotels.xsd">
 
 	<Hotel Rating="4.2">
 		<Name>Westin</Name>
