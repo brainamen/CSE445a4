@@ -19,9 +19,9 @@ namespace ConsoleApp1
 
     public class Program
     {
-        public static string xmlURL = "http://www.w3.org/2001/XMLSchema-instance";
-        public static string xmlErrorURL = "http://www.w3.org/2001/XMLSchema-instance";
-        public static string xsdURL = "http://www.example.com/Hotels";
+        public static string xmlURL = "https://github.com/brainamen/CSE445a4/blob/master/Assignment%204/Hotels.xml";
+        public static string xmlErrorURL = "https://github.com/brainamen/CSE445a4/blob/master/Assignment%204/HotelsErrors.xml";
+        public static string xsdURL = "https://github.com/brainamen/CSE445a4/blob/master/Assignment%204/Hotels.xsd";
 
         public static void Main(string[] args)
         {
